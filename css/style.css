@@ -1,0 +1,178 @@
+body {
+  background: #fafafa; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+  .container-fluid .navbar {
+    background: #0097cf; }
+    .container-fluid .navbar span {
+      color: #ddedf6; }
+    .container-fluid .navbar a {
+      color: #ddedf6; }
+      .container-fluid .navbar a i {
+        color: #fff; }
+    .container-fluid .navbar .navbar-right span {
+      color: #B2BEC4; }
+
+.content {
+  background: #ffffff;
+  border: 1px solid #e6e6e6; }
+  .content .search {
+    margin-top: 10px;
+    line-height: 4; }
+    .content .search p {
+      display: inline-block;
+      font-size: 20px;
+      color: #0097cf; }
+    .content .search .search-box {
+      display: inline-block;
+      width: 425px;
+      height: 42px;
+      border: 1px solid #efefef;
+      border-radius: 3px;
+      margin-left: 10px;
+      line-height: 40px;
+      margin-top: 18px; }
+      .content .search .search-box i {
+        font-size: 22px;
+        color: #dfdfe1;
+        padding-left: 5px; }
+      .content .search .search-box input {
+        border: 0;
+        outline: 0 none; }
+    .content .search .btn {
+      width: 86px;
+      height: 42px;
+      background: #f6ac00;
+      border-radius: 3px;
+      color: #fdf0dd;
+      text-align: center;
+      margin-left: 10px;
+      font-size: 16px; }
+  .content .main .img {
+    float: left;
+    width: 190px;
+    height: 190px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 68px; }
+  .content .main .center, .content .main .right {
+    float: left;
+    width: 428px;
+    height: 190px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background: #fcfcfe; }
+    .content .main .center h2, .content .main .right h2 {
+      font-size: 18px;
+      color: #414141;
+      margin-top: 8px;
+      margin-bottom: 12px;
+      padding-left: 15px; }
+    .content .main .center ul, .content .main .right ul {
+      padding: 0 16px; }
+      .content .main .center ul li, .content .main .right ul li {
+        float: left;
+        margin: 5px 5px; }
+  .content .main .right {
+    margin-left: 20px; }
+    .content .main .right h2 {
+      color: #0097cf;
+      border-bottom: 1px dashed #cececf;
+      margin: 0 15px 12px;
+      height: 35px;
+      line-height: 35px; }
+    .content .main .right ul li {
+      width: 64px;
+      height: 30px;
+      border: 1px solid #a9a9a9;
+      border-radius: 3px;
+      text-align: center;
+      margin-right: 22px;
+      line-height: 30px;
+      position: relative; }
+    .content .main .right ul .add {
+      border: 1px solid #0097cf; }
+      .content .main .right ul .add a {
+        color: #0097cf; }
+    .content .main .right ul span {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: #f4c600;
+      border-radius: 100%;
+      line-height: 1;
+      text-align: center;
+      color: #fff;
+      right: -5px;
+      top: -5px;
+      font-size: 12px;
+      display: none; }
+    .content .main .right ul a {
+      color: #cccccc; }
+  .content .name {
+    color: #414141;
+    width: 190px;
+    text-align: center;
+    line-height: 2.5; }
+  .content .info {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px; }
+    .content .info .info-nav {
+      height: 36px;
+      margin-bottom: 15px; }
+      .content .info .info-nav span {
+        font-size: 20px;
+        color: #414141;
+        float: left;
+        line-height: 2.5; }
+      .content .info .info-nav .sub-nav {
+        float: right;
+        background: #f8f8f8; }
+        .content .info .info-nav .sub-nav a {
+          float: left;
+          width: 160px;
+          height: 36px;
+          border: 1px solid #dfdfdf;
+          text-align: center;
+          line-height: 36px;
+          font-size: 20px; }
+          .content .info .info-nav .sub-nav a.on {
+            background: #ffffff;
+            border-top: 3px solid #0097cf;
+            border-bottom: 0; }
+      .content .info .info-nav h3 {
+        float: left;
+        width: 512px;
+        height: 36px;
+        border-bottom: 1px dashed #dfdfdf;
+        margin-left: 5px; }
+    .content .info .tab tr td {
+      border: 0 !important; }
+    .content .info .list {
+      width: 100%;
+      margin-bottom: 20px;
+      height: 100px; }
+      .content .info .list dl {
+        width: 10%;
+        float: left; }
+        .content .info .list dl dd {
+          margin-top: 10px; }
+    .content .info .tab2 {
+      border-left: 1px solid #e6e6e6;
+      border-right: 1px solid #e6e6e6; }
+    .content .info .tab1 {
+      border-left: 1px solid #e6e6e6;
+      border-right: 1px solid #e6e6e6;
+      border-bottom: 1px solid #e6e6e6; }
+
+.navbar .navbar-nav > .active a {
+  background: #0088ba; }
+
+.navbar .navbar-nav > li a:hover {
+  background: #0088ba; }
+
+/*# sourceMappingURL=style.css.map */
